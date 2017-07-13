@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Combining/Combining.iml" filepath="$PROJECT_DIR$/Combining/Combining.iml" />
       <module fileurl="file://$PROJECT_DIR$/ErrorHandling/ErrorHandling.iml" filepath="$PROJECT_DIR$/ErrorHandling/ErrorHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/Filtering/Filtering.iml" filepath="$PROJECT_DIR$/Filtering/Filtering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Math/Math.iml" filepath="$PROJECT_DIR$/Math/Math.iml" />
       <module fileurl="file://$PROJECT_DIR$/RxJava2-RxMarbles-Samples.iml" filepath="$PROJECT_DIR$/RxJava2-RxMarbles-Samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/Transforming/Transforming.iml" filepath="$PROJECT_DIR$/Transforming/Transforming.iml" />
     </modules>

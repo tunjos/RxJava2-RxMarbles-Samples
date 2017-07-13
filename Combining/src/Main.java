@@ -1,6 +1,4 @@
 import io.reactivex.Observable;
-import io.reactivex.annotations.NonNull;
-import io.reactivex.functions.BiFunction;
 
 import java.util.Arrays;
 import java.util.List;
