@@ -62,7 +62,7 @@ public class Main {
         System.out.println(stringList);
         Observable<String> stringObservable = Observable.fromIterable(stringList);
 
-        System.out.println("buffer(x) [x = 2] =====================>");
+        System.out.println("buffer(" + count + ") =====================>");
 
         stringObservable.buffer(count)
                 .subscribe(System.out::println);
@@ -80,10 +80,11 @@ public class Main {
         System.out.println(integerList);
         Observable<Integer> integerObservable = Observable.fromIterable(integerList);
 
-        System.out.println("groupBy(x) [x = x/2] =====================>");
+        System.out.println("groupBy(x => x/2) =====================>");
 
         integerObservable.groupBy(integer -> integer/2)
-                .subscribe(integerIntegerGroupedObservable -> integerIntegerGroupedObservable.toList().subscribe(System.out::println));
+                .subscribe(integerIntegerGroupedObservable -> integerIntegerGroupedObservable.toList()
+                        .subscribe(System.out::println));
         System.out.println();
     }
 
