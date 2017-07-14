@@ -60,7 +60,7 @@ public class Main {
         System.out.println(integerList);
         Observable<Integer> integerObservable = Observable.fromIterable(integerList);
 
-        System.out.println("reduce((x, y) => x * Y) =====================>");
+        System.out.println("reduce((x, y) => x * y) =====================>");
 
         integerObservable.reduce((x, y) -> x * y)
                 .subscribe(System.out::println);

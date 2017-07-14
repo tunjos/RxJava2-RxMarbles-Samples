@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Combining/Combining.iml" filepath="$PROJECT_DIR$/Combining/Combining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Conditional/Conditional.iml" filepath="$PROJECT_DIR$/Conditional/Conditional.iml" />
       <module fileurl="file://$PROJECT_DIR$/ErrorHandling/ErrorHandling.iml" filepath="$PROJECT_DIR$/ErrorHandling/ErrorHandling.iml" />
       <module fileurl="file://$PROJECT_DIR$/Filtering/Filtering.iml" filepath="$PROJECT_DIR$/Filtering/Filtering.iml" />
       <module fileurl="file://$PROJECT_DIR$/Math/Math.iml" filepath="$PROJECT_DIR$/Math/Math.iml" />
