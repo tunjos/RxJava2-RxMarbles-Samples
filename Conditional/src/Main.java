@@ -110,8 +110,8 @@ public class Main {
     }
 
     /**
-     * Apply a function to each item emitted by an Observable, sequentially, emit the
-     * final value and terminate.
+     * Discard any items emitted by an Observable after a second Observable emits an
+     * item or terminates.
      **/
     private static void takeUntil() {
         System.out.println("takeUntil");
