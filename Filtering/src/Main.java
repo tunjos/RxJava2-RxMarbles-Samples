@@ -29,7 +29,7 @@ public class Main  {
     private static void debounce(long timeout) {
         System.out.println("debounce");
 
-        List<Integer> integerList = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> integerList = Arrays.asList(1, 2, 3);
         System.out.println(integerList);
         Observable<Integer> integerObservable = Observable.fromIterable(integerList);
 
@@ -155,7 +155,7 @@ public class Main  {
     private static void skip(long count) {
         System.out.println("skip");
 
-        List<Integer> integerList = Arrays.asList(11, 33, 66);
+        List<Integer> integerList = Arrays.asList(1, 2, 3);
         System.out.println(integerList);
         Observable<Integer> integerObservable = Observable.fromIterable(integerList);
 
@@ -178,7 +178,7 @@ public class Main  {
         System.out.println(stringList);
         Observable<String> integerObservable = Observable.fromIterable(stringList);
 
-        System.out.println("skipLast =====================>");
+        System.out.println("skipLast(" + count + ") =====================>");
 
         integerObservable.skipLast(count)
                 .subscribe(System.out::println);
