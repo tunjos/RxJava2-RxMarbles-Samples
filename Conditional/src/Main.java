@@ -1,3 +1,4 @@
+import com.tunjos.rxjava2.NumberUtils;
 import io.reactivex.Observable;
 
 import java.util.Arrays;
@@ -28,19 +29,9 @@ public class Main {
 
         System.out.println("all(x => isPrime(x) =====================>");
 
-        integerObservable.all(Main::isPrime)
+        integerObservable.all(NumberUtils::isPrime)
                 .subscribe(System.out::println);
         System.out.println();
-    }
-
-    private static boolean isPrime(int number) {
-        if (number % 2 == 0) return false;
-
-        for (int i = 3; i*i <= number; i+=2) {
-            if (number % i == 0)
-                return false;
-        }
-        return true;
     }
 
     /**
@@ -113,13 +104,9 @@ public class Main {
 
         System.out.println("takeWhile(x => isEven(x) =====================>");
 
-        integerObservable.takeWhile(Main::isEven)
+        integerObservable.takeWhile(NumberUtils::isEven)
                 .subscribe(System.out::println);
         System.out.println();
-    }
-
-    private static boolean isEven(int number) {
-        return number % 2 == 0;
     }
 
     /**

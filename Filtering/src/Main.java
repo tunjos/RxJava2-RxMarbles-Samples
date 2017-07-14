@@ -1,3 +1,4 @@
+import com.tunjos.rxjava2.NumberUtils;
 import io.reactivex.Observable;
 
 import java.util.Arrays;
@@ -106,13 +107,9 @@ public class Main  {
 
         System.out.println("filter(x => isEven(x^2)) =====================>");
 
-        integerObservable.filter(x -> isEven(x^2))
+        integerObservable.filter(x -> NumberUtils.isEven(x^2))
                 .subscribe(System.out::println);
         System.out.println();
-    }
-
-    private static boolean isEven(int number) {
-        return number % 2 == 0;
     }
 
     /**
