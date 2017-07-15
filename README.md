@@ -10,6 +10,7 @@ Simply import the project using intelliJ IDEA and run the corresponding run conf
 ### Awesome Links
 [RxMarbles Android Application](https://play.google.com/store/apps/details?id=com.moonfleet.rxmarbles)  
 [ReactiveX](http://reactivex.io/)  
+[ReactiveX Operators](http://reactivex.io/documentation/operators.html)  
 [RxMarbles](http://rxmarbles.com/)  
 [RxJava Wiki](https://github.com/ReactiveX/RxJava/wiki)  
 
