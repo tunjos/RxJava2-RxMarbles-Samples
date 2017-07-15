@@ -8,13 +8,13 @@ This repository contains RxJava 2 implementations of the sample operators found 
 Simply import the project using intelliJ IDEA and run the corresponding run configurations.
 
 ### Awesome Links
-[RxMarbles Android Application](https://play.google.com/store/apps/details?id=com.moonfleet.rxmarbles)
-[ReactiveX](http://reactivex.io/)
-[RxMarbles](http://rxmarbles.com/)
-[RxJava Wiki](https://github.com/ReactiveX/RxJava/wiki)
+[RxMarbles Android Application](https://play.google.com/store/apps/details?id=com.moonfleet.rxmarbles)  
+[ReactiveX](http://reactivex.io/)  
+[RxMarbles](http://rxmarbles.com/)  
+[RxJava Wiki](https://github.com/ReactiveX/RxJava/wiki)  
 
 ### Dependencies
-[RxJava2](https://github.com/ReactiveX/RxJava)
+[RxJava2](https://github.com/ReactiveX/RxJava)  
 [RxJava2Extensions](https://github.com/akarnokd/RxJava2Extensions)
 
 ## [Transforming](https://github.com/tunjos/RxJava2-RxMarbles-Samples/blob/master/Transforming/src/Main.java)
@@ -39,7 +39,7 @@ Simply import the project using intelliJ IDEA and run the corresponding run conf
 
 ## [Math](https://github.com/tunjos/RxJava2-RxMarbles-Samples/blob/master/Math/src/Main.java)
 
-<img src="Math/operators/average.png" width="200"> <img src="Math/operators/sum.png" width="250"> <img src="Math/operators/reduce.png" width="250"> <img src="Math/operators/count.png" width="250">
+<img src="Math/operators/average.png" width="250"> <img src="Math/operators/sum.png" width="250"> <img src="Math/operators/reduce.png" width="250"> <img src="Math/operators/count.png" width="250">
 
 NB
 --------
