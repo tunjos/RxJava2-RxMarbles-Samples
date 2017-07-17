@@ -106,15 +106,15 @@ public class Main {
         System.out.println("merge");
 
         List<String> stringList = Arrays.asList("M", "R", "G", "D");
-        List<String> stringList2 = Arrays.asList("E", "E");
+        List<String> stringList1 = Arrays.asList("E", "E");
         System.out.println(stringList);
-        System.out.println(stringList2);
+        System.out.println(stringList1);
         Observable<String> stringObservable = Observable.fromIterable(stringList);
-        Observable<String> stringObservable2 = Observable.fromIterable(stringList2);
+        Observable<String> stringObservable1 = Observable.fromIterable(stringList1);
 
         System.out.println("merge =====================>");
 
-        Observable.merge(stringObservable, stringObservable2)
+        Observable.merge(stringObservable, stringObservable1)
                 .subscribe(System.out::println);
         System.out.println();
     }
